@@ -1,9 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rowdy Lawn Care — Based Outta Indiana</title>
+<title>Grant County Lawn Care</title>
+	<link rel="icon" type="image/png" href="Logo.png">
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--acc:#84cc16;--bg:#060a04;--panel:#0a0f06;--mid:#0e1408;--text:#ecf0e8;--border:rgba(132,204,22,0.12);--glow:0 0 40px rgba(132,204,22,0.18);}
@@ -18,7 +19,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:1.1rem 7vw;display:
 .nav-links a:hover{color:var(--acc);}
 @media(max-width:640px){.nav-links{display:none;}}
 #hero{position:relative;min-height:100vh;display:flex;flex-direction:column;justify-content:flex-end;padding:0 7vw 9vh;overflow:hidden;}
-.hero-img{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1558904541-efa843a96f01?fm=jpg&q=80&w=1600&auto=format&fit=crop');background-size:cover;background-position:center 60%;}
+.hero-img{position:absolute;inset:0;background-image:url('hero.png');background-size:cover;background-position:center 60%;}
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(6,10,4,0.97) 0%,rgba(6,10,4,0.55) 50%,rgba(6,10,4,0.22) 100%),linear-gradient(to right,rgba(6,10,4,0.65) 0%,transparent 65%);}
 .hero-content{position:relative;z-index:2;max-width:780px;}
 .hero-eyebrow{font-family:'Raleway',sans-serif;font-size:clamp(10px,1.1vw,13px);font-weight:600;letter-spacing:7px;color:var(--acc);text-transform:uppercase;margin-bottom:1.2rem;display:flex;align-items:center;gap:14px;animation:fadeUp .8s ease both;}
@@ -106,6 +107,8 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
 .footer-links a{font-family:'Raleway',sans-serif;font-size:14px;letter-spacing:2px;color:rgba(236,240,232,0.32);text-decoration:none;transition:color .2s;}
 .footer-links a:hover{color:var(--acc);}
 .footer-copy{font-size:11px;color:rgba(236,240,232,0.14);letter-spacing:2px;padding-top:2rem;}
+.footer-contact{font-size:13px;color:rgba(236,240,232,0.4);line-height:1.8;}
+.footer-contact strong{color:var(--acc);letter-spacing:1px;}
 @keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
 .reveal{opacity:0;transform:translateY(26px);transition:opacity .65s ease,transform .65s ease;}
 .reveal.in{opacity:1;transform:translateY(0);}
@@ -114,7 +117,7 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
 </head>
 <body>
 <nav>
-  <a class="nav-brand" href="#"><em>Rowdy</em> Lawn Care</a>
+  <a class="nav-brand" href="#"><img src="Logo.png" alt="Grant County Lawn Care" style="height:40px;"></a>
   <ul class="nav-links">
     <li><a href="#services">Services</a></li>
     <li><a href="#why">About</a></li>
@@ -126,7 +129,8 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
   <div class="hero-img"></div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <h1 class="hero-title">Rowdy<span>Lawn Care</span></h1>
+    <p class="hero-eyebrow">Grant County, Indiana</p>
+    <h1 class="hero-title">Grant County<span>Lawn Care</span></h1>
     <p class="hero-sub">Mowing, edging, trimming, fertilizing — your yard handled with the same Midwest work ethic we put into everything.</p>
     <div class="hero-cta">
       <a href="#booking" class="btn-primary">Get a Quote</a>
@@ -136,16 +140,16 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
   <div class="hero-badge">
     <svg viewBox="0 0 150 150">
       <defs><path id="cp" d="M75,75 m-55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0"/></defs>
-      <text font-family="Barlow Condensed,sans-serif" font-size="10.5" font-weight="600" letter-spacing="3" fill="#84cc16"><textPath href="#cp">INDIANA · LAWN CARE · </textPath></text>
+      <text font-family="Barlow Condensed,sans-serif" font-size="10.5" font-weight="600" letter-spacing="3" fill="#84cc16"><textPath href="#cp">GRANT COUNTY · LAWN CARE · </textPath></text>
     </svg>
-    <span class="hero-badge-inner">RD</span>
+    <span class="hero-badge-inner">GC</span>
   </div>
   <div class="scroll-hint">Scroll</div>
 </section>
 
 <div class="ticker-wrap"><div class="ticker-inner">
-  <span>Lawn Mowing</span><span class="sep">✦</span><span>Edging &amp; Trimming</span><span class="sep">✦</span><span>Fertilization</span><span class="sep">✦</span><span>Leaf Removal</span><span class="sep">✦</span><span>Aeration</span><span class="sep">✦</span><span>Weekly Service</span><span class="sep">✦</span><span>Based in Indiana</span><span class="sep">✦</span>
-  <span>Lawn Mowing</span><span class="sep">✦</span><span>Edging &amp; Trimming</span><span class="sep">✦</span><span>Fertilization</span><span class="sep">✦</span><span>Leaf Removal</span><span class="sep">✦</span><span>Aeration</span><span class="sep">✦</span><span>Weekly Service</span><span class="sep">✦</span><span>Based in Indiana</span><span class="sep">✦</span>
+  <span>Lawn Mowing</span><span class="sep">✦</span><span>Edging &amp; Trimming</span><span class="sep">✦</span><span>Fertilization</span><span class="sep">✦</span><span>Leaf Removal</span><span class="sep">✦</span><span>Aeration</span><span class="sep">✦</span><span>Weekly Service</span><span class="sep">✦</span><span>Grant County</span><span class="sep">✦</span>
+  <span>Lawn Mowing</span><span class="sep">✦</span><span>Edging &amp; Trimming</span><span class="sep">✦</span><span>Fertilization</span><span class="sep">✦</span><span>Leaf Removal</span><span class="sep">✦</span><span>Aeration</span><span class="sep">✦</span><span>Weekly Service</span><span class="sep">✦</span><span>Grant County</span><span class="sep">✦</span>
 </div></div>
 
 <section id="services" class="sec">
@@ -167,7 +171,7 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
     <div class="why-accent"><strong>800+</strong><span>Lawns Maintained</span></div>
   </div>
   <div>
-    <p class="sec-label reveal">Why Rowdy</p>
+    <p class="sec-label reveal">Why Us</p>
     <h2 class="sec-title reveal">Show Up<br>Every Time</h2>
     <p class="why-intro reveal">No ghosting, no skipped weeks without notice. You're on the schedule — we're there, rain or shine.</p>
     <ul class="why-list">
@@ -184,23 +188,27 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
 <section id="booking" class="sec">
   <div class="booking-layout">
     <div class="booking-aside reveal">
-      <p class="sec-label">Schedule</p>
+      <p class="sec-label">Contact</p>
       <h2 class="sec-title">Get a<br>Free Quote</h2>
       <p style="font-size:14px;color:rgba(236,240,232,0.42);line-height:1.75;">Tell us about your property and we'll have a quote back same day.</p>
+      <div style="margin-top:2rem;font-size:14px;color:rgba(236,240,232,0.5);line-height:2;">
+        <p><span style="color:var(--acc);font-weight:600;">Phone</span><br>(765) 206-2878</p>
+        <p style="margin-top:1rem;"><span style="color:var(--acc);font-weight:600;">Email</span><br>trey_g1@icloud.com</p>
+      </div>
       <div class="booking-photo">
-        <div class="booking-photo-label"><p>Based Outta</p><strong>Indiana · Residential &amp; Commercial</strong></div>
+        <div class="booking-photo-label"><p>Serving</p><strong>Grant County · Residential &amp; Commercial</strong></div>
       </div>
     </div>
     <div class="reveal d1">
       <div class="form-grid">
-        <div class="field"><label>First Name</label><input type="text" placeholder="Rowdy"></div>
-        <div class="field"><label>Last Name</label><input type="text" placeholder="Ghost"></div>
-        <div class="field"><label>Phone</label><input type="tel" placeholder="(765) 000-0000"></div>
-        <div class="field"><label>City</label><input type="text" placeholder="Marion, Muncie..."></div>
+        <div class="field"><label>First Name</label><input type="text" placeholder="Trey"></div>
+        <div class="field"><label>Last Name</label><input type="text" placeholder="Gephart"></div>
+        <div class="field"><label>Phone</label><input type="tel" placeholder="(765) 206-2878"></div>
+        <div class="field"><label>City</label><input type="text" placeholder="Marion, Gas City..."></div>
         <div class="field"><label>Yard Size</label><select><option value="">Estimate size</option><option>Small — under ¼ acre</option><option>Medium — ¼ to ½ acre</option><option>Large — ½ to 1 acre</option><option>XL — over 1 acre</option></select></div>
         <div class="field"><label>Service</label><select><option value="">Select...</option><option>Lawn Mowing</option><option>Edging &amp; Trimming</option><option>Fertilization</option><option>Leaf Removal</option><option>Aeration</option><option>Full Package</option><option>Not Sure</option></select></div>
         <div class="field full"><label>Notes</label><textarea placeholder="Describe your yard, problem areas, preferred schedule..."></textarea></div>
-        <div class="field full"><button class="btn-primary" style="width:100%;text-align:center;border:none;" onclick="this.textContent='Request Sent ✓';this.style.background='#22c55e';setTimeout(()=>{this.textContent='Request Quote';this.style.background=''},3000)">Request Quote</button></div>
+        <div class="field full"><button class="btn-primary" style="width:100%;text-align:center;border:none;" onclick="this.textContent='Request Sent!';this.style.background='#22c55e';setTimeout(()=>{this.textContent='Send Message';this.style.background=''},3000)">Send Message</button></div>
       </div>
     </div>
   </div>
@@ -208,10 +216,15 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
 
 <footer>
   <div class="footer-top">
-    <div class="footer-brand"><em>Rowdy</em> Lawn Care</div>
+    <div class="footer-brand"><img src="Logo.png" alt="Grant County Lawn Care" style="height:48px;"></div>
+    <div class="footer-contact">
+      <strong>Trey Gephart</strong><br>
+      (765) 206-2878<br>
+      trey_g1@icloud.com
+    </div>
     <div class="footer-links"><a href="#services">Services</a><a href="#why">About</a><a href="#booking">Get a Quote</a></div>
   </div>
-  <div class="footer-copy" style="display:flex;align-items:center;justify-content:center;gap:1.25rem;flex-wrap:wrap;padding-top:1.5rem;"><span style="display:flex;align-items:center;gap:0.4rem;white-space:nowrap;"><img src="https://rowdy-designs.com/static/Icons/logo-nobg.png" alt="Rowdy Designs" style="height:18px;opacity:0.55;">Coded By <span style="color:var(--acc);font-weight:600;">Rowdy Designs</span></span></div>
+  <div class="footer-copy" style="display:flex;align-items:center;justify-content:center;gap:1.25rem;flex-wrap:wrap;padding-top:1.5rem;">&copy; 2026 Grant County Lawn Care. All rights reserved.</div>
 </footer>
 <script>
 const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');obs.unobserve(x.target);}}),{threshold:.1});
