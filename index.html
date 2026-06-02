@@ -73,8 +73,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:1.1rem 7vw;display:
 #why{display:grid;grid-template-columns:1fr 1fr;gap:7vw;align-items:center;padding:clamp(70px,11vh,130px) 7vw;}
 @media(max-width:780px){#why{grid-template-columns:1fr;}}
 .why-img-stack{position:relative;height:500px;}
-.why-img-a{position:absolute;top:0;left:0;width:74%;height:80%;background-size:cover;background-position:center;border:2px solid var(--border);background-image:url('https://images.unsplash.com/photo-1558904541-efa843a96f01?fm=jpg&q=80&w=800&auto=format&fit=crop');}
-.why-img-b{position:absolute;bottom:0;right:0;width:58%;height:52%;background-size:cover;background-position:center;border:2px solid var(--border);background-image:url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?fm=jpg&q=80&w=700&auto=format&fit=crop');}
+.why-img-a{position:absolute;top:0;left:0;width:74%;height:80%;background-size:cover;background-position:center;border:2px solid var(--border);background-image:url('static/Before%26After/B%26A-1.png');}
+.why-img-b{position:absolute;bottom:0;right:0;width:58%;height:52%;background-size:cover;background-position:center;border:2px solid var(--border);background-image:url('static/Before%26After/B%26A-2.png');}
 .why-accent{position:absolute;bottom:28px;left:-14px;padding:1rem 1.4rem;background:var(--bg);border:1px solid var(--border);border-left:3px solid var(--acc);z-index:3;}
 .why-accent strong{display:block;font-family:'Lora',serif;font-size:34px;color:var(--acc);line-height:1;text-shadow:var(--glow);}
 .why-accent span{font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;color:rgba(236,240,232,0.32);}
@@ -199,11 +199,11 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
         </div>
         <div style="display:flex;align-items:center;gap:1rem;">
           <img src="static/contact/Smartphone_480.png" alt="" style="width:44px;height:44px;">
-          <div><p style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(132,204,22,0.45);">Phone</p><p style="font-size:15px;color:rgba(236,240,232,0.7);font-weight:500;">(765) 206-2878</p></div>
+          <div><p style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(132,204,22,0.45);">Phone</p><a href="tel:+17652062878" style="font-size:15px;color:rgba(236,240,232,0.7);font-weight:500;text-decoration:none;">(765) 206-2878</a></p></div>
         </div>
         <div style="display:flex;align-items:center;gap:1rem;">
           <img src="static/contact/Envelope_480.png" alt="" style="width:44px;height:44px;">
-          <div><p style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(132,204,22,0.45);">Email</p><p style="font-size:15px;color:rgba(236,240,232,0.7);font-weight:500;">trey_g1@icloud.com</p></div>
+          <div><p style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(132,204,22,0.45);">Email</p><a href="mailto:trey_g1@icloud.com" style="font-size:15px;color:rgba(236,240,232,0.7);font-weight:500;text-decoration:none;">trey_g1@icloud.com</a></p></div>
         </div>
       </div>
       <div class="booking-photo">
@@ -230,12 +230,12 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
     <div class="footer-brand"><img src="static/Logo.png" alt="Grant County Property Management" style="height:48px;"></div>
     <div class="footer-contact">
       <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem;"><img src="static/contact/UserMale_480.png" alt="" style="width:24px;height:24px;"><strong>Trey Gephart</strong></div>
-      <div style="display:flex;align-items:center;gap:.5rem;"><img src="static/contact/Smartphone_480.png" alt="" style="width:22px;height:22px;">(765) 206-2878</div>
-      <div style="display:flex;align-items:center;gap:.5rem;margin-top:.25rem;"><img src="static/contact/Envelope_480.png" alt="" style="width:22px;height:22px;">trey_g1@icloud.com</div>
+      <div style="display:flex;align-items:center;gap:.5rem;"><img src="static/contact/Smartphone_480.png" alt="" style="width:22px;height:22px;"><a href="tel:+17652062878" style="color:inherit;text-decoration:none;">(765) 206-2878</a></div>
+      <div style="display:flex;align-items:center;gap:.5rem;margin-top:.25rem;"><img src="static/contact/Envelope_480.png" alt="" style="width:22px;height:22px;"><a href="mailto:trey_g1@icloud.com" style="color:inherit;text-decoration:none;">trey_g1@icloud.com</a></div>
     </div>
     <div class="footer-links"><a href="#services">Services</a><a href="#why">About</a><a href="#booking">Get a Quote</a></div>
   </div>
-  <div class="footer-copy" style="display:flex;align-items:center;justify-content:center;gap:1.25rem;flex-wrap:wrap;padding-top:1.5rem;">&copy; 2026 Grant County Property Management. All rights reserved.</div>
+  <div class="footer-copy" style="display:flex;align-items:center;justify-content:center;gap:1.25rem;flex-wrap:wrap;padding-top:1.5rem;">&copy; 2026 Grant County Property Management. All rights reserved. &nbsp;|&nbsp; <a href="https://rowdy-designs.com" target="_blank" style="color:var(--acc);text-decoration:none;">Coded by Rowdy Designs</a></div>
 </footer>
 <script>
 const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');obs.unobserve(x.target);}}),{threshold:.1});
