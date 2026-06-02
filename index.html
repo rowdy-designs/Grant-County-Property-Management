@@ -25,7 +25,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:1.1rem 7vw;display:
 .hero-eyebrow{font-family:'Raleway',sans-serif;font-size:clamp(10px,1.1vw,13px);font-weight:600;letter-spacing:7px;color:var(--acc);text-transform:uppercase;margin-bottom:1.2rem;display:flex;align-items:center;gap:14px;animation:fadeUp .8s ease both;}
 .hero-eyebrow::before{content:'';width:30px;height:1px;background:var(--acc);}
 .hero-title{font-family:'Lora',serif;font-size:clamp(36px,6vw,72px);line-height:.87;letter-spacing:2px;color:#fff;animation:fadeUp .8s .12s ease both;}
-.hero-title span{color:var(--acc);display:block;}
+.hero-title span{color:var(--acc);font-size:.65em;white-space:nowrap;}
 .hero-sub{margin-top:2rem;font-size:clamp(13px,1.4vw,16px);color:rgba(236,240,232,0.48);max-width:420px;line-height:1.75;animation:fadeUp .8s .24s ease both;}
 .hero-cta{margin-top:2.5rem;display:flex;gap:1rem;flex-wrap:wrap;animation:fadeUp .8s .36s ease both;}
 .hero-badge{position:absolute;top:50%;right:7vw;transform:translateY(-50%);z-index:2;width:clamp(110px,13vw,155px);height:clamp(110px,13vw,155px);border-radius:50%;border:1px solid rgba(132,204,22,0.18);display:flex;align-items:center;justify-content:center;animation:spin 22s linear infinite;}
@@ -72,10 +72,11 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:1.1rem 7vw;display:
 .svc-price{font-family:'Raleway',sans-serif;font-size:clamp(18px,2vw,24px);font-weight:600;color:var(--acc);margin-top:auto;}
 #why{display:grid;grid-template-columns:1fr 1fr;gap:7vw;align-items:center;padding:clamp(70px,11vh,130px) 7vw;}
 @media(max-width:780px){#why{grid-template-columns:1fr;}}
-.why-img-stack{position:relative;height:500px;}
-.why-img-a{position:absolute;top:0;left:0;width:74%;height:80%;background-size:cover;background-position:center;border:2px solid var(--border);background-image:url('static/Before%26After/B%26A-1.png');}
-.why-img-b{position:absolute;bottom:0;right:0;width:58%;height:52%;background-size:cover;background-position:center;border:2px solid var(--border);background-image:url('static/Before%26After/B%26A-2.png');}
-.why-accent{position:absolute;bottom:28px;left:-14px;padding:1rem 1.4rem;background:var(--bg);border:1px solid var(--border);border-left:3px solid var(--acc);z-index:3;}
+.why-img-stack{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+.why-img-a,.why-img-b{width:100%;border:2px solid var(--border);border-radius:12px;overflow:hidden;}
+.why-img-a img,.why-img-b img{width:100%;height:auto;display:block;object-fit:contain;}
+.why-img-label{font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;text-align:center;padding:.6rem;background:var(--panel);color:var(--acc);}
+.why-accent{display:flex;align-items:center;gap:2rem;margin-top:1rem;padding:1rem 0;}
 .why-accent strong{display:block;font-family:'Lora',serif;font-size:34px;color:var(--acc);line-height:1;text-shadow:var(--glow);}
 .why-accent span{font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;color:rgba(236,240,232,0.32);}
 .why-intro{font-size:14.5px;color:rgba(236,240,232,0.48);line-height:1.75;margin-bottom:2rem;}
@@ -141,7 +142,7 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
   <div class="hero-badge">
     <svg viewBox="0 0 150 150">
       <defs><path id="cp" d="M75,75 m-55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0"/></defs>
-      <text font-family="Barlow Condensed,sans-serif" font-size="10.5" font-weight="600" letter-spacing="3" fill="#84cc16"><textPath href="#cp">GRANT COUNTY · LAWN CARE · </textPath></text>
+      <text font-family="Barlow Condensed,sans-serif" font-size="10.5" font-weight="600" letter-spacing="3" fill="#84cc16"><textPath href="#cp">GRANT CO · PROPERTY MGMT ·</textPath></text>
     </svg>
     <span class="hero-badge-inner">GC</span>
   </div>
@@ -167,8 +168,8 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
 
 <section id="why">
   <div class="why-img-stack reveal">
-    <div class="why-img-a"></div>
-    <div class="why-img-b"></div>
+    <div class="why-img-a"><img src="static/Before%26After/B%26A-1.png" alt="Before"><div class="why-img-label">Before</div></div>
+    <div class="why-img-b"><img src="static/Before%26After/B%26A-2.png" alt="After"><div class="why-img-label">After</div></div>
     <div class="why-accent"><strong>800+</strong><span>Lawns Maintained</span></div>
   </div>
   <div>
