@@ -1,0 +1,165 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Grant County Lawn Care" [ref=e3] [cursor=pointer]:
+      - /url: "#"
+      - img "Grant County Lawn Care" [ref=e4]
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Services" [ref=e7] [cursor=pointer]:
+          - /url: "#services"
+      - listitem [ref=e8]:
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: "#why"
+      - listitem [ref=e10]:
+        - link "Get a Quote" [ref=e11] [cursor=pointer]:
+          - /url: "#booking"
+  - generic [ref=e12]:
+    - generic [ref=e15]:
+      - paragraph [ref=e16]: Grant County, Indiana
+      - heading "Grant County Lawn Care" [level=1] [ref=e17]:
+        - text: Grant County
+        - generic [ref=e18]: Lawn Care
+      - paragraph [ref=e19]: Mowing, edging, trimming, fertilizing — your yard handled with the same Midwest work ethic we put into everything.
+      - generic [ref=e20]:
+        - link "Get a Quote" [ref=e21] [cursor=pointer]:
+          - /url: "#booking"
+        - link "Our Services" [ref=e22] [cursor=pointer]:
+          - /url: "#services"
+    - generic [ref=e23]:
+      - img [ref=e24]:
+        - generic [ref=e25]: GRANT COUNTY · LAWN CARE ·
+      - generic [ref=e26]: GC
+    - generic [ref=e27]: Scroll
+  - generic [ref=e29]: Lawn Mowing✦Edging & Trimming✦Fertilization✦Leaf Removal✦Aeration✦Weekly Service✦Grant County✦ Lawn Mowing✦Edging & Trimming✦Fertilization✦Leaf Removal✦Aeration✦Weekly Service✦Grant County✦
+  - generic [ref=e30]:
+    - generic [ref=e31]:
+      - paragraph [ref=e32]: What We Do
+      - heading "Services & Packages" [level=2] [ref=e33]:
+        - text: Services &
+        - text: Packages
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - img [ref=e37]
+        - generic [ref=e42]: "01"
+        - generic [ref=e43]: Lawn Mowing
+        - paragraph [ref=e44]: Weekly or bi-weekly cuts, cleanly bagged or mulched. We stripe it right and edge every time.
+        - generic [ref=e45]: $40+ per visit
+      - generic [ref=e46]:
+        - img [ref=e48]
+        - generic [ref=e54]: "02"
+        - generic [ref=e55]: Edging & Trimming
+        - paragraph [ref=e56]: Crisp edges along driveways, beds, sidewalks, and fences. The detail work that makes the difference.
+        - generic [ref=e57]: Included
+      - generic [ref=e58]:
+        - img [ref=e60]
+        - generic [ref=e64]: "03"
+        - generic [ref=e65]: Fertilization & Treatment
+        - paragraph [ref=e66]: Seasonal programs, weed control, and pre-emergent treatments to keep your lawn thick and green.
+        - generic [ref=e67]: $80+ per treatment
+      - generic [ref=e68]:
+        - img [ref=e70]
+        - generic [ref=e73]: "04"
+        - generic [ref=e74]: Leaf Removal & Cleanup
+        - paragraph [ref=e75]: Fall cleanups, spring debris removal. We blow, rake, and haul it all away.
+        - generic [ref=e76]: $75+ per visit
+      - generic [ref=e77]:
+        - img [ref=e79]
+        - generic [ref=e86]: "05"
+        - generic [ref=e87]: Aeration
+        - paragraph [ref=e88]: Core aeration to break up compaction, improve drainage, and let your lawn breathe again.
+        - generic [ref=e89]: $100+
+      - generic [ref=e90]:
+        - img [ref=e92]
+        - generic [ref=e94]: "06"
+        - generic [ref=e95]: Full Service Package
+        - paragraph [ref=e96]: Mow, edge, trim, blow — everything bundled. Set it and forget it all season long.
+        - generic [ref=e97]: Ask Us
+  - generic [ref=e98]:
+    - generic [ref=e102]:
+      - strong [ref=e103]: 800+
+      - text: Lawns Maintained
+    - generic [ref=e104]:
+      - paragraph [ref=e105]: Why Us
+      - heading "Show Up Every Time" [level=2] [ref=e106]:
+        - text: Show Up
+        - text: Every Time
+      - paragraph [ref=e107]: No ghosting, no skipped weeks without notice. You're on the schedule — we're there, rain or shine.
+      - list [ref=e108]:
+        - listitem [ref=e109]: ▸ Flat rates by yard size — no nickel-and-diming
+        - listitem [ref=e110]: ▸ Same crew every visit — we know your property
+        - listitem [ref=e111]: ▸ Indiana seasons, soil, and grass types — we know what works
+        - listitem [ref=e112]: ▸ Fully insured, locally owned, Midwest work ethic
+        - listitem [ref=e113]: ▸ Weekly, bi-weekly, or seasonal — you pick the schedule
+      - link "Get a Quote" [ref=e115] [cursor=pointer]:
+        - /url: "#booking"
+  - generic [ref=e117]:
+    - generic [ref=e118]:
+      - paragraph [ref=e119]: Contact
+      - heading "Get a Free Quote" [level=2] [ref=e120]:
+        - text: Get a
+        - text: Free Quote
+      - paragraph [ref=e121]: Tell us about your property and we'll have a quote back same day.
+      - generic [ref=e122]:
+        - generic [ref=e124]:
+          - paragraph [ref=e125]: Call or Text
+          - paragraph [ref=e126]: (765) 206-2878
+        - generic [ref=e128]:
+          - paragraph [ref=e129]: Phone
+          - paragraph [ref=e130]: (765) 206-2878
+        - generic [ref=e132]:
+          - paragraph [ref=e133]: Email
+          - paragraph [ref=e134]: trey_g1@icloud.com
+      - generic [ref=e136]:
+        - paragraph [ref=e137]: Serving
+        - strong [ref=e138]: Grant County · Residential & Commercial
+    - generic [ref=e140]:
+      - generic [ref=e141]:
+        - generic [ref=e142]: First Name
+        - textbox "Trey" [ref=e143]
+      - generic [ref=e144]:
+        - generic [ref=e145]: Last Name
+        - textbox "Gephart" [ref=e146]
+      - generic [ref=e147]:
+        - generic [ref=e148]: Phone
+        - textbox "(765) 206-2878" [ref=e149]
+      - generic [ref=e150]:
+        - generic [ref=e151]: City
+        - textbox "Marion, Gas City..." [ref=e152]
+      - generic [ref=e153]:
+        - generic [ref=e154]: Yard Size
+        - combobox [ref=e155]:
+          - option "Estimate size" [selected]
+          - option "Small — under ¼ acre"
+          - option "Medium — ¼ to ½ acre"
+          - option "Large — ½ to 1 acre"
+          - option "XL — over 1 acre"
+      - generic [ref=e156]:
+        - generic [ref=e157]: Service
+        - combobox [ref=e158]:
+          - option "Select..." [selected]
+          - option "Lawn Mowing"
+          - option "Edging & Trimming"
+          - option "Fertilization"
+          - option "Leaf Removal"
+          - option "Aeration"
+          - option "Full Package"
+          - option "Not Sure"
+      - generic [ref=e159]:
+        - generic [ref=e160]: Notes
+        - textbox "Describe your yard, problem areas, preferred schedule..." [ref=e161]
+      - button "Send Message" [ref=e163] [cursor=pointer]
+  - contentinfo [ref=e164]:
+    - generic [ref=e165]:
+      - img "Grant County Lawn Care" [ref=e167]
+      - generic [ref=e168]:
+        - strong [ref=e170]: Trey Gephart
+        - generic [ref=e171]: (765) 206-2878
+        - generic [ref=e172]: trey_g1@icloud.com
+      - generic [ref=e173]:
+        - link "Services" [ref=e174] [cursor=pointer]:
+          - /url: "#services"
+        - link "About" [ref=e175] [cursor=pointer]:
+          - /url: "#why"
+        - link "Get a Quote" [ref=e176] [cursor=pointer]:
+          - /url: "#booking"
+    - generic [ref=e177]: © 2026 Grant County Lawn Care. All rights reserved.
