@@ -72,9 +72,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:1.1rem 7vw;display:
 .svc-price{font-family:'Raleway',sans-serif;font-size:clamp(18px,2vw,24px);font-weight:600;color:var(--acc);margin-top:auto;}
 #why{padding:clamp(70px,11vh,130px) 7vw;}
 .why-img-stack{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+@media(max-width:640px){.why-img-stack{grid-template-columns:1fr;}}
 .why-img-a,.why-img-b{width:100%;border:2px solid var(--border);border-radius:12px;overflow:hidden;}
 .why-img-a img,.why-img-b img{width:100%;height:auto;display:block;object-fit:contain;}
-.why-img-label{font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;text-align:center;padding:.6rem;background:var(--panel);color:var(--acc);}
 .why-accent{display:flex;align-items:center;gap:2rem;margin-top:1rem;padding:1rem 0;}
 .why-accent strong{display:block;font-family:'Lora',serif;font-size:34px;color:var(--acc);line-height:1;text-shadow:var(--glow);}
 .why-accent span{font-family:'Raleway',sans-serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;color:rgba(236,240,232,0.32);}
@@ -167,8 +167,8 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
 
 <section id="why">
   <div class="why-img-stack reveal">
-    <div class="why-img-a"><img src="static/Before%26After/B%26A-1.png" alt="Before"><div class="why-img-label">Before</div></div>
-    <div class="why-img-b"><img src="static/Before%26After/B%26A-2.png" alt="After"><div class="why-img-label">After</div></div>
+    <div class="why-img-a"><img src="static/Before%26After/B%26A-1.png" alt="Before"></div>
+    <div class="why-img-b"><img src="static/Before%26After/B%26A-2.png" alt="After"></div>
     <div class="why-accent"><strong>800+</strong><span>Lawns Maintained</span></div>
   </div>
 </section>
